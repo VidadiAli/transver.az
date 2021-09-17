@@ -1,0 +1,837 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Transfer</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<style type="text/css">
+		*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: linear-gradient(rgb(28, 29, 54), rgb(0, 0, 0));
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+	width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+	background: #222;
+}
+html::-webkit-scrollbar-thumb{
+	background: yellow;
+}
+section{
+	float: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.nav1{
+	position: fixed;
+	margin-top: 0;
+	width: 100%;
+	height: 5rem;
+	background: yellow;
+	z-index: 100;
+}
+
+.nav1 .ul1{
+	margin-left: 20rem;
+}
+
+.nav1 .ul1 li{
+	float: left;
+	font-family: 'Pacifico', cursive;
+	font-size: 2rem;
+	padding-top: 1rem;
+	padding-right: 2rem;
+    list-style: none;
+}
+
+.nav1 .ul1 li:hover a{
+	color: gray;
+}
+
+.nav1 .ul1 li a{
+    text-decoration: none;
+    color: black;
+}
+.home{
+	margin-left: 30rem;
+}
+
+.home h2{
+   color: white;
+}
+
+.home h2 .big1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+
+.home h3{
+	color: white;
+	margin-bottom: 2rem;
+}
+
+.home .box2{
+    width: 100rem;
+    height: 40rem;
+    overflow: hidden;
+}
+
+.home .box2 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+.home .box2:hover img{
+	transform: scale(1.2);
+}
+
+.qadin{
+	margin-left: 30rem;
+	margin-top: 60rem;
+}
+
+.qadin .box1{
+	width: 20rem;
+	height: 30rem;
+	float: left;
+	margin: 1rem .5rem;
+	overflow: hidden;
+	border-radius: 1rem;
+	border: .1rem solid yellow;
+}
+.qadin .box1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+.qadin .box1:hover img{
+	transform: scale(1.2);
+}
+
+.heading{
+	text-align: center;
+	margin: 0 6rem;
+	font-size: 4rem;
+	padding: 1rem;
+	color: yellow;
+	font-family: 'Satisfy', cursive;
+}
+
+
+.kisi{
+	margin-left: 30rem;
+	margin-top: 100rem;
+}
+
+.kisi .box1 .box-container{
+	flex-wrap: wrap;
+}
+.kisi .box1{
+	width: 20rem;
+	height: 30rem;
+	float: left;
+	margin: 1rem .5rem;
+	overflow: hidden;
+	border-radius: 1rem;
+	border: .1rem solid yellow;
+}
+.kisi .box1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+.kisi .box1:hover img{
+	transform: scale(1.2);
+}
+
+.usaq{
+	margin-left: 30rem;
+	margin-top: 100rem;
+}
+
+.usaq .box1{
+	width: 20rem;
+	height: 30rem;
+	float: left;
+	margin: 1rem .5rem;
+	overflow: hidden;
+	border-radius: 1rem;
+	border: .1rem solid yellow;
+}
+.usaq .box1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+.usaq .box1:hover img{
+	transform: scale(1.2);
+}
+
+.hami{
+	margin-left: 30rem;
+	margin-top: 100rem;
+}
+
+.hami .box1{
+	width: 30rem;
+	height: 20rem;
+	float: left;
+	margin: 1rem .5rem;
+	overflow: hidden;
+	border-radius: 1rem;
+	border: .1rem solid yellow;
+}
+.hami .box1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+.hami .box1:hover img{
+	transform: scale(1.2);
+}
+
+#tik{
+	color: rgb(233, 80, 16);
+	margin-left: 20rem;
+	font-size: 2rem;
+	margin-top: -2rem;
+	padding: 1rem;
+}
+
+#tik:hover{
+	color: yellow;
+	text-decoration: underline;
+	width: 50rem;
+}
+
+.top{
+	position: fixed;
+	bottom: 1rem; right: 2rem;
+	z-index: 10000;
+	font-size: 4rem;
+	color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:  1200px){
+	#tik:hover{
+	color: yellow;
+	text-decoration: underline;
+	width: 40rem;
+    }
+	.nav1 .ul1{
+		position: fixed;
+		right: 17rem;
+		margin-top: 1rem;
+	}
+	.nav1 .ul1 li{
+		font-size: 1.7rem;
+		padding-top: 0;
+	}
+    
+    .home{
+		margin-left: 23rem;
+		margin-bottom: 20rem;
+	}
+
+	.home .box2{
+		width: 80rem;
+		height: 30rem;
+	}
+
+	.home h1{
+		font-size: 2rem;
+	}
+	.home span{
+		font-size: 2rem;
+	}
+
+	.home h2{
+		font-size: 2rem;
+	}
+	.home h3{
+		font-size: 2rem;
+	}
+
+	.qadin{
+		margin-left: 23rem;
+		margin-bottom: 20rem;
+	}
+
+	.qadin .box1{
+		width: 18rem;
+		height: 27rem;
+	}
+
+	.qadin h1{
+		font-size: 2rem;
+	}
+	.qadin span{
+		font-size: 2rem;
+	}
+
+	.kisi{
+		margin-left: 23rem;
+		margin-bottom: 20rem;
+	}
+
+	.kisi .box1{
+		width: 18rem;
+		height: 27rem;
+	}
+
+	.kisi h1{
+		font-size: 2rem;
+	}
+	.kisi span{
+		font-size: 2rem;
+	}
+
+	.usaq{
+		margin-left: 23rem;
+		margin-bottom: 20rem;
+	}
+
+	.usaq .box1{
+		width: 18rem;
+		height: 27rem;
+	}
+
+	.usaq h1{
+		font-size: 2rem;
+	}
+	.usaq span{
+		font-size: 2rem;
+	}
+
+	.hami{
+		margin-left: 23rem;
+		margin-bottom: 20rem;
+	}
+
+	.hami .box1{
+		width: 27rem;
+		height: 18rem;
+	}
+
+	.hami h1{
+		font-size: 2rem;
+	}
+	.hami span{
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 991px){
+	#tik:hover{
+	color: yellow;
+	text-decoration: underline;
+	width: 30rem;
+    }
+	.nav1{
+		width: 15rem;
+		height: 100%;
+		display: block;
+		position: fixed;
+		bottom: 1rem;
+		border-top-right-radius: 2rem;
+		border-bottom-right-radius: 2rem;
+		border-right: .5rem solid red;
+		border-top: .5rem solid red;
+	}
+
+	.nav1 .ul1{
+        position: relative;
+		top: 15rem;
+		border-left: .2rem solid beige;
+	}
+
+	.nav1 .ul1 li{        
+		float: none;
+        margin-bottom: 3rem;
+        width: 1.7rem;
+	}
+
+    .nav1 .ul1 li a{
+        font-size: 1.7rem;
+    }
+
+    .nav1 .ul1 li:hover a{
+    	font-weight: normal;
+    	font-style: italic;
+    	font-size: 1.5rem;
+    	color: red;
+    	border-bottom: .1rem solid gray;
+    }
+
+    .nav1 .ul1 li{
+		font-size: 1.2rem;
+	}
+    
+    .home{
+		margin-left: 23rem;
+		margin-bottom: 20rem;
+	}
+    
+
+	.home .box2{
+		width: 50rem;
+		height: 20rem;
+	}
+
+	.qadin{
+		margin-left: 17rem;
+		margin-bottom: 20rem;
+	}
+
+	.qadin .box1{
+		width: 15rem;
+		height: 22.5rem;
+	}
+
+	.kisi{
+		margin-left: 17rem;
+		margin-bottom: 20rem;
+	}
+
+	.kisi .box1{
+		width: 15rem;
+		height: 22.5rem;
+	}
+
+	.usaq{
+		margin-left: 17rem;
+		margin-bottom: 20rem;
+	}
+
+	.usaq .box1{
+		width: 15rem;
+		height: 22.5rem;
+	}
+	
+	.hami{
+		margin-left: 17rem;
+		margin-bottom: 20rem;
+	}
+
+	.hami .box1{
+		width: 22.5rem;
+		height: 15rem;
+	}
+}
+
+@media (max-width: 520px){
+	.nav1{
+		width: 8rem;
+		height: 100%;
+		display: block;
+		position: fixed;
+		bottom: 1rem;
+		border-top-right-radius: 2rem;
+		border-bottom-right-radius: 2rem;
+		border-right: .2rem solid red;
+		border-top: .2rem solid red;
+	}
+	.nav1 .ul1{
+        position: relative;
+		top: 12rem; left: -19rem;
+		border-left: .1rem solid beige;
+	}
+	.nav1 .ul1 li{        
+		float: none;
+        margin-bottom: 2rem;
+        margin-left: 0.5rem;
+        width: 1.2rem;
+	}
+
+    .nav1 .ul1 li a{
+        font-size: 1.4rem;
+    }
+    .nav1 .ul1 li:hover a{
+    	font-weight: normal;
+    	font-style: italic;
+    	font-size: 1rem;
+    	color: red;
+    	border-bottom: .1rem solid gray;
+    }
+    hr{
+    	width: 18rem;
+    }
+    .hr1{
+    	width: 13rem;
+    }
+    .heading{
+    	text-align: left;
+	    margin: 0;
+	    font-size: 1rem;
+	    padding: 0;
+    	z-index: 8;
+    }
+
+    .home{
+		margin-left: 11rem;
+		margin-bottom: 20rem;
+	}
+
+    .home .box3{
+    	width: 20rem;
+    	height: 20rem;
+    }
+
+    .home h2{
+    	font-size: 1.5rem;
+    }
+
+    .home h2 .big1{
+    	font-size: 2rem;
+    }
+
+    .home h3{
+    	font-size: 1rem;
+    }
+
+	.home .box2{
+		width: 25rem;
+		height: 10rem;
+	}
+	.qadin{
+		margin-left: 12rem;
+		margin-top: 30rem;
+	}
+
+	.qadin .box1{
+		width: 17rem;
+		height: 22rem;
+	}
+    .box4{
+    	width: 18rem;    }
+	.kisi{
+		margin-left: 12rem;
+		margin-top: 180rem;
+	}
+
+	.kisi .box1{
+		width: 17rem;
+		height: 22rem;
+	}
+
+	.usaq{
+		margin-left: 12rem;
+		margin-top: 200rem;
+	}
+
+	.usaq .box1{
+		width: 17rem;
+		height: 22rem;
+	}
+
+	.hami{
+		margin-left: 9rem;
+		margin-top: 180rem;
+	}
+
+	.hami .box1{
+		width: 22rem;
+		height: 16rem;
+	}
+	#tik{
+		margin-left: 2rem;
+		margin-top: 1rem;
+		font-size: 1.5rem;
+		width: 20rem;
+	}
+
+	#tik:hover{
+	   color: yellow;
+	   text-decoration: underline;
+	   width: 20rem;
+   }
+}
+	</style>
+</head>
+<body>
+     <header>
+     	<nav class="nav1">
+     	<span class="span1"><i></i></span>
+     	<ul class="ul1">
+     		<li><a href="#home">Home</a></li>
+     		<li><a href="#qadin">Woman</a></li>
+     		<li><a href="#kisi">Man</a></li>
+     		<li><a href="#usaq">Children</a></li>
+     		<li><a href="#hami">All</a></li>
+     	</ul>
+     </nav>
+     </header>
+     
+     <br><br><br><br>
+     <div id="home" class="home">
+           <h1 class="heading">Home</h1><hr style="color: yellow;">
+           <div class="box3"><h2 style="font-style: italic;">Your <big style="color: rgb(246, 126, 6); " class="big1">Transfer...</big></h2>
+           <h3>All the goods you want are now just a click away. And we, as a Transfer Company, have created these conditions for our dear customers. We deliver the goods you want to your door at the best price and as soon as possible. All you have to do is be with us </h3><h2 id="tik">Click Products For More Learn About Product</h2></div>
+           <br>
+           <div class="box2"><img src="images/Home.webp"></div>
+           <div class="box2"><img src="images/Home2.webp"></div>
+           <div class="box2"><img src="images/Home3.webp"></div>
+           <div class="box2"><img src="images/Home4.webp"></div>
+
+     </div>
+
+
+       <div class="box4">
+           <section id="qadin" class="qadin">
+     	        <h1 class="heading">Woman</h1><hr style="color: yellow;" class="hr1">
+     		          <div class="box1"><img src="images/q_img1.webp" id="woman1"></div>
+     		          <div class="box1"><img src="images/q_img2.webp" id="woman2"></div>
+     		          <div class="box1"><img src="images/q_img3.webp" id="woman3"></div>
+     		          <div class="box1"><img src="images/q_img4.webp" id="woman4"></div>
+     		          <div class="box1"><img src="images/q_img5.webp" id="woman5"></div>
+     		          <div class="box1"><img src="images/q_img6.webp" id="woman6"></div>
+     		          <div class="box1"><img src="images/q_img7.webp" id="woman7"></div>
+            </section>
+       </div>
+             
+
+       <div class="box4">
+          <section id="kisi" class="kisi">
+     	   <h1 class="heading">Man</h1><hr style="color: yellow;" class="hr1">	
+     		<div class="box-container">
+                    <div class="box1"><img src="images/k_img1.webp" id="man1"></div>
+                    <div class="box1"><img src="images/k_img2.webp" id="man2"></div>
+                    <div class="box1"><img src="images/k_img3.webp" id="man3"></div>
+                    <div class="box1"><img src="images/k_img4.webp" id="man4"></div>
+                    <div class="box1"><img src="images/k_img5.webp" id="man5"></div>
+                    <div class="box1"><img src="images/k_img6.webp" id="man6"></div>
+                    <div class="box1"><img src="images/k_img7.webp" id="man7"></div>
+                    <div class="box1"><img src="images/k_img8.webp" id="man8"></div>         
+               </div>
+          </section>
+       </div>
+            
+       <div class="box4">
+          <section id="usaq" class="usaq">
+             <h1 class="heading">Children</h1><hr style="color: yellow;" class="hr1">    
+               <div class="box-container">
+                    <div class="box1"><img src="images/u_img1.webp" id="child1"></div>
+                    <div class="box1"><img src="images/u_img2.webp" id="child2"></div>
+                    <div class="box1"><img src="images/u_img3.webp" id="child3"></div>
+                    <div class="box1"><img src="images/u_img4.webp" id="child4"></div>
+                    <div class="box1"><img src="images/u_img5.webp" id="child5"></div>
+                    <div class="box1"><img src="images/u_img6.webp" id="child6"></div>
+               </div>
+          </section>
+       </div>
+            
+       <div class="box4">
+          <section id="hami" class="hami">
+             <h1 class="heading">All</h1><hr style="color: yellow;">    
+               <div class="box-container">
+                    <div class="box1"><img src="images/h_img1.webp" id="all1"></div>
+                    <div class="box1"><img src="images/h_img2.jpg"  id="all2"></div>
+                    <div class="box1"><img src="images/h_img3.webp" id="all3"></div>
+                    <div class="box1"><img src="images/h_img4.webp" id="all4"></div>
+                    <div class="box1"><img src="images/h_img5.webp" id="all5"></div>
+                    <div class="box1"><img src="images/h_img6.webp" id="all6"></div>
+                    <div class="box1"><img src="images/h_img7.webp" id="all7"></div>
+                    <div class="box1"><img src="images/h_img8.jpg"  id="all8"></div>
+                    <div class="box1"><img src="images/h_img9.webp" id="all9"></div>
+                    <div class="box1"><img src="images/h_img10.webp" id="all10"></div>
+                    <div class="box1"><img src="images/h_img11.webp" id="all11"></div>
+                    <div class="box1"><img src="images/h_img12.webp" id="all12"></div>
+                    <div class="box1"><img src="images/h_img13.webp" id="all13"></div>
+                    <div class="box1"><img src="images/h_img14.webp" id="all14"></div>
+                    <div class="box1"><img src="images/h_img15.webp" id="all15"></div>
+                    <div class="box1"><img src="images/h_img16.webp" id="all16"></div> 
+                    <div class="box1"><img src="images/h_img17.webp" id="all17"></div>
+                    <div class="box1"><img src="images/h_img18.webp" id="all18"></div>
+                    <div class="box1"><img src="images/h_img19.webp" id="all19"></div>
+                    <div class="box1"><img src="images/h_img20.webp" id="all20"></div>
+                    <div class="box1"><img src="images/h_img21.webp" id="all21"></div>
+                    <div class="box1"><img src="images/h_img22.webp" id="all22"></div>
+                    <div class="box1"><img src="images/h_img23.webp" id="all23"></div>
+                    <div class="box1"><img src="images/h_img24.webp" id="all24"></div>          
+               </div>
+          </section>
+     </div>
+
+<a href="#home" class="top">
+	<i class="fas fa-angle-double-up"></i>
+</a>
+
+<script type="text/javascript">
+
+	 woman1.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section1", "newwindow");
+	 }
+	 woman2.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section1", "newwindow");
+	 }
+	 woman3.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section1", "newwindow");
+	 }
+	 woman4.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section1", "newwindow");
+	 }
+	 woman5.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section1", "newwindow");
+	 }
+	 woman6.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section1", "newwindow");
+	 }
+	 woman7.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section1", "newwindow");
+	 }
+
+
+	 man1.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section2", "newwindow");
+	 }
+	 man2.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section2", "newwindow");
+	 }
+	 man3.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section2", "newwindow");
+	 }
+	 man4.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section2", "newwindow");
+	 }
+	 man5.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section2", "newwindow");
+	 }
+	 man6.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section2", "newwindow");
+	 }
+	 man7.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section2", "newwindow");
+	 }
+	 man8.onclick=function () {
+	 	newwindow=window.open("portfolio1_1.html#section2", "newwindow");
+	 }
+
+	 child1.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section3", "newwindow");
+	 }
+	 child2.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section3", "newwindow");
+	 }
+	 child3.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section3", "newwindow");
+	 }
+	 child4.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section3", "newwindow");
+	 }
+	 child5.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section3", "newwindow");
+	 }
+	 child6.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section3", "newwindow");
+	 }
+
+	 all1.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all2.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all3.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all4.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all5.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all6.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all7.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all8.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all9.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all10.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all11.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all12.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all13.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all14.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all15.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all16.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all17.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all18.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all19.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all20.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all21.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all22.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all23.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 all24.onclick=function() {
+	 	newwindow=window.open("portfolio1_1.html#section4", "newwindow");
+	 }
+	 
+</script>
+</body>
+</html>

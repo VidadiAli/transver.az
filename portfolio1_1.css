@@ -1,0 +1,1087 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: linear-gradient(rgb(28, 29, 54), rgb(0, 0, 0));
+}
+
+html::-webkit-scrollbar{
+	width: 1.2rem;
+}
+
+html::-webkit-scrollbar-truck{
+	background: #222;
+}
+
+html::-webkit-scrollbar-thumb{
+	background: #f9ca24;
+}
+
+
+.section1{
+	margin-top: 3rem;
+	margin-left: 8rem;
+	margin-right: 5rem;
+}
+.section1 .box{
+	width: 34rem;
+	height: 22rem;
+	float: left;
+}
+.section1 .box1{
+    width: 17rem;
+	height: 21rem;
+	display: inline-block;
+	border: .05rem solid yellow;
+}
+
+.box1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.section1 .box2{
+    width: 15rem;
+	height: 16rem;
+	border: .05rem solid yellow;
+	display: inline-block;
+	position: relative;
+	bottom: 5rem;
+	background: radial-gradient(gray, white);
+	border-radius: 1rem;
+}
+
+.section1 .box2 .span1{
+	display: inline-block;
+    border: .1rem solid yellow;
+    background-color: rgb(23, 23, 59);
+    padding: 1rem 1rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: .5rem;
+}
+
+.section1 .box2 .span2{
+	display: inline-block;
+    border: .1rem solid yellow;
+    background-color: green;
+    padding: 0.3rem .5rem;
+    margin: 1rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: .5rem;
+}
+
+.section1 .box2 .span3{
+	display: inline-block;
+	cursor: pointer;
+	background-color: green;
+	color: white;
+	font-size: 1rem;
+	margin-right: 1rem;
+	padding: .2rem .5rem;
+}
+
+.section1 .box2 i{
+	font-size: 1.5rem;
+	margin-left: 8.5rem;
+	position: relative;
+	bottom: 1.5rem;
+}
+
+.section1 .box2 .span4{
+	background-color: yellow;
+	color: red;
+	font-size: 2rem;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	margin-left: 1.5rem;
+}
+
+.section1 .box2 .span5{
+	background-color: yellow;
+	color: red;
+	font-size: 2rem;
+	padding: .2rem .6rem;
+}
+
+.section1 .box2 .span6{
+	display: flex;
+    background-color: red;
+    color: yellow;
+    font-size: 2rem;
+    width: 4rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.section1 .box2 #span4{
+	background-color: red;
+	color: yellow;
+	font-size: 1rem;
+	padding: .2rem .6rem;
+	margin-left: 1.5rem;
+	margin-bottom: .2rem;
+}
+
+.input1{
+	background: white;
+	color: black;
+}
+
+#balans{
+	display: inline-block;
+	margin-bottom: 1rem;
+	text-align: center;
+	border: .1rem solid rgb(24, 23, 54);
+	width: 10rem;
+	height: 3rem;
+	background: darkblue;
+	color: white;
+	font-size: 2rem;
+}
+
+.section{
+	display: inline-block;
+	width: 50%;
+	background: radial-gradient(gray, white);
+	margin-top: 1rem;
+	margin-left: 1rem;
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
+button{
+	width: 5rem;
+	height: 2rem;
+	font-size: 1rem;
+	background-color: blue;
+	color: white;
+	margin-left: 1rem;
+	cursor: pointer;
+}
+
+.i{
+	position: relative;
+	bottom: 3rem;
+	color: white;
+	font-size: 1rem;
+	background-color: blue;
+	border-radius: 20rem;
+	padding: .2rem .5rem;
+}
+
+.basliq{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5rem;
+	background: #9fca24;
+	font-size: 5rem;
+	color: rgb(24, 23, 59);
+}
+
+
+
+.section2{
+	margin-top: 120rem;
+	margin-left: 8rem;
+	margin-right: 5rem;
+}
+.section2 .box{
+	width: 34rem;
+	height: 22rem;
+	float: left;
+}
+.section2 .box1{
+    width: 17rem;
+	height: 21rem;
+	display: inline-block;
+	border: .05rem solid yellow;
+}
+
+.box1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.section2 .box2{
+    width: 15rem;
+	height: 16rem;
+	border: .05rem solid yellow;
+	display: inline-block;
+	position: relative;
+	bottom: 5rem;
+	background: radial-gradient(gray, white);
+	border-radius: 1rem;
+}
+
+.section2 .box2 .span1{
+	display: inline-block;
+    border: .1rem solid yellow;
+    background-color: rgb(23, 23, 59);
+    padding: 1rem 1rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: .5rem;
+}
+
+.section2 .box2 .span2{
+	display: inline-block;
+    border: .1rem solid yellow;
+    background-color: green;
+    padding: 0.3rem .5rem;
+    margin: 1rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: .5rem;
+}
+
+.section2 .box2 .span3{
+	display: inline-block;
+	cursor: pointer;
+	background-color: green;
+	color: white;
+	font-size: 1rem;
+	margin-right: 1rem;
+	padding: .2rem .5rem;
+}
+
+.section2 .box2 i{
+	font-size: 1.5rem;
+	margin-left: 8.5rem;
+	position: relative;
+	bottom: 1.5rem;
+}
+
+.section2 .box2 .span4{
+	background-color: yellow;
+	color: red;
+	font-size: 2rem;
+	padding: .2rem .6rem;
+	margin-left: 1.5rem;
+}
+
+.section2 .box2 .span5{
+	background-color: yellow;
+	color: red;
+	font-size: 2rem;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	padding-right: .6rem;
+}
+
+.section2 .box2 .span6{
+	display: flex;
+    background-color: red;
+    color: yellow;
+    font-size: 2rem;
+    width: 4rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.section2 .box2 #span4{
+	background-color: red;
+	color: yellow;
+	font-size: 1rem;
+	padding: .2rem .6rem;
+	margin-left: 1.5rem;
+	margin-bottom: .2rem;
+}
+
+
+
+
+.section3{
+	margin-top: 120rem;
+	margin-left: 8rem;
+	margin-right: 5rem;
+}
+.section3 .box{
+	width: 34rem;
+	height: 22rem;
+	float: left;
+}
+.section3 .box1{
+    width: 17rem;
+	height: 21rem;
+	display: inline-block;
+	border: .05rem solid yellow;
+}
+
+.box1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.section3 .box2{
+    width: 15rem;
+	height: 16rem;
+	border: .05rem solid yellow;
+	display: inline-block;
+	position: relative;
+	bottom: 5rem;
+	background: radial-gradient(gray, white);
+	border-radius: 1rem;
+}
+
+.section3 .box2 .span1{
+	display: inline-block;
+    border: .1rem solid yellow;
+    background-color: rgb(23, 23, 59);
+    padding: 1rem 1rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: .5rem;
+}
+
+.section3 .box2 .span2{
+	display: inline-block;
+    border: .1rem solid yellow;
+    background-color: green;
+    padding: 0.3rem .5rem;
+    margin: 1rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: .5rem;
+}
+
+.section3 .box2 .span3{
+	display: inline-block;
+	cursor: pointer;
+	background-color: green;
+	color: white;
+	font-size: 1rem;
+	margin-right: 1rem;
+	padding: .2rem .5rem;
+}
+
+.section3 .box2 i{
+	font-size: 1.5rem;
+	margin-left: 8.5rem;
+	position: relative;
+	bottom: 1.5rem;
+}
+
+.section3 .box2 .span4{
+	background-color: yellow;
+	color: red;
+	font-size: 2rem;
+	padding: .2rem .6rem;
+	margin-left: 1.5rem;
+}
+
+.section3 .box2 .span5{
+	background-color: yellow;
+	color: red;
+	font-size: 2rem;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	padding-right: .6rem;
+}
+
+.section3 .box2 .span6{
+	display: flex;
+    background-color: red;
+    color: yellow;
+    font-size: 2rem;
+    width: 4rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.section3 .box2 #span4{
+	background-color: red;
+	color: yellow;
+	font-size: 1rem;
+	padding: .2rem .6rem;
+	margin-left: 1.5rem;
+	margin-bottom: .2rem;
+}
+
+
+
+
+.section4{
+	margin-top: 120rem;
+	margin-left: 8rem;
+	margin-right: 5rem;
+}
+.section4 .box{
+	width: 34rem;
+	height: 15rem;
+	float: left;
+}
+.section4 .box1{
+    width: 18rem;
+	height: 12rem;
+	display: inline-block;
+	border: .05rem solid yellow;
+}
+
+.box1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.section4 .box2{
+    width: 14rem;
+	height: 9rem;
+	border: .05rem solid yellow;
+	display: inline-block;
+	position: relative;
+	background: radial-gradient(gray, white);
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+.section4 .box2 .span1{
+	display: inline-block;
+    border: .1rem solid yellow;
+    background-color: rgb(23, 23, 59);
+    padding: .7rem .7rem;
+    margin: .7rem;
+    font-size: .8rem;
+    color: white;
+    border-radius: .3rem;
+}
+
+.section4 .box2 .span2{
+	display: inline-block;
+    border: .1rem solid yellow;
+    background-color: green;
+    padding: 0.2rem .3rem;
+    margin-right: .5rem;
+    margin-left: .6rem;
+    font-size: .7rem;
+    color: white;
+    border-radius: .3rem;
+}
+
+.section4 .box2 .span3{
+	display: inline-block;
+	cursor: pointer;
+	background-color: green;
+	color: white;
+	font-size: .9rem;
+	margin-right: .5rem;
+	padding: .2rem .3rem;
+}
+
+.section4 .box2 i{
+	font-size: 1.5rem;
+	margin-left: 5.5rem;
+	position: relative;
+	bottom: 1.2rem;
+	left: 1.5rem;
+}
+
+.section4 .box2 .span4{
+	background-color: yellow;
+	color: red;
+	font-size: 1rem;
+	padding: .13rem .4rem;
+	margin-left: 1.5rem;
+}
+
+.section4 .box2 .span5{
+	background-color: yellow;
+	color: red;
+	font-size: 1rem;
+	padding-top: .13rem;
+	padding-bottom: .13rem;
+	padding-right: .4rem;
+}
+
+.section4 .box2 .span6{
+	display: flex;
+    background-color: red;
+    color: yellow;
+    font-size: 1rem;
+    width: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.section4 .box2 #span4{
+	background-color: red;
+	color: yellow;
+	font-size: 1rem;
+	padding: .2rem .6rem;
+	margin-left: 1.5rem;
+	margin-bottom: .2rem;
+}
+
+.section4 .i{
+	position: relative;
+	bottom: 3rem;
+	left: 1rem;
+	color: white;
+	font-size: 1rem;
+	background-color: blue;
+	border-radius: 20rem;
+	padding: .2rem .5rem;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+	.section2{
+		margin-top: 200rem;
+	}
+	.section3{
+		margin-top: 200rem;
+	}
+	.section4{
+		margin-top: 200rem;
+	}
+}
+
+@media (max-width: 991px){
+	.section2{
+		margin-top: 200rem;
+	}
+	.section3{
+		margin-top: 200rem;
+	}
+	.section4{
+		margin-top: 200rem;
+	}
+}
+
+@media (max-width: 550px){
+	.section1{
+		width: 100vw;
+	}
+	.section2{
+		width: 100vw;
+	}
+	.section3{
+		width: 100vw;
+	}
+	.section4{
+		width: 100vw;
+	}
+	.section1{
+	margin-top: 3rem;
+	margin-left: 8rem;
+	margin-right: 5rem;
+}
+.section1 .box{
+	width: 20rem;
+	height: 16rem;
+	margin-top: 1rem;
+}
+.section1 .box1{
+    width: 10rem;
+	height: 15rem;
+}
+
+.box1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.section1 .box2{
+    width: 9rem;
+	height: 11rem;
+	position: relative;
+	bottom: 2rem;
+}
+
+.section1 .box2 .span1{
+	width: 5.8rem;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    font-size: .7rem;
+    color: white;
+    border-radius: .5rem;
+}
+
+.section1 .box2 .span2{
+	width: 6.7rem;
+    padding: 0.2rem .5rem;
+    margin: .5rem;
+    font-size: 1rem;
+}
+
+.section1 .box2 .span3{
+	font-size: 1rem;
+	padding: .2rem .5rem;
+	padding-right: 1.8rem;
+	margin-left: .5rem;
+}
+
+.section1 .box2 i{
+	font-size: 1.2rem;
+	margin-left: .5rem;
+	position: relative;
+	right: 1rem;
+	top: .3rem;
+}
+
+.i{
+	position: relative;
+	bottom: 2.5rem;
+	left: 6.3rem;
+	color: white;
+	font-size: 1rem;
+	background-color: blue;
+	border-radius: 20rem;
+	padding: .2rem .5rem;
+}
+
+.section1 .box2 .span4{
+	font-size: .9rem;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	padding-left: 1rem;
+	margin-left: .5rem;
+}
+
+.section1 .box2 .span5{
+	background-color: yellow;
+	color: red;
+	font-size: .9rem;
+	padding: .2rem .6rem;
+	padding-right: 5rem;
+}
+
+.section1 .box2 .span6{
+    font-size: .7rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    margin-top: .2rem;
+    position: relative;
+    right: 1.5rem;
+    display:inline-block;
+}
+
+.section1 .box2 #span4{
+	background-color: red;
+	color: yellow;
+	font-size: 1rem;
+	padding: .2rem .6rem;
+	margin-left: 1.5rem;
+	margin-bottom: .2rem;
+}
+
+.s1{
+	position: relative;
+	top: 2.5rem;
+	left: 11rem;
+}
+.s2{
+	position: relative;
+	top: 5.5rem;
+	right: 5.6rem;
+}
+.s3{
+	position: relative;
+	top: 8.4rem;
+	right: 20.2rem;
+}
+
+#balans{
+	display: inline-block;
+	margin-bottom: 1rem;
+	text-align: center;
+	border: .1rem solid rgb(24, 23, 54);
+	width: 6rem;
+	height: 3rem;
+	background: darkblue;
+	color: white;
+	font-size: 2rem;
+}
+
+.section{
+	display: inline-block;
+	background: rgb(28,29,53);
+	color: white;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
+button{
+	width: 3rem;
+	height: 1.5rem;
+	font-size: .7rem;
+	background-color: blue;
+	color: white;
+	margin-left: 1rem;
+	cursor: pointer;
+}
+
+.basliq{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5rem;
+	background: #9fca24;
+	font-size: 2rem;
+	color: rgb(24, 23, 59);
+	width: 20rem;
+}
+
+
+
+
+
+
+.section2{
+	margin-top: 150rem;
+	margin-left: 8rem;
+	margin-right: 5rem;
+}
+.section2 .box{
+	width: 20rem;
+	height: 16rem;
+	margin-top: 1rem;
+}
+.section2 .box1{
+    width: 10rem;
+	height: 15rem;
+}
+
+.box1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.section2 .box2{
+    width: 9rem;
+	height: 11rem;
+	position: relative;
+	bottom: 2rem;
+}
+
+.section2 .box2 .span1{
+	width: 5.8rem;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    font-size: .7rem;
+    color: white;
+    border-radius: .5rem;
+}
+
+.section2 .box2 .span2{
+	width: 6.7rem;
+    padding: 0.2rem .5rem;
+    margin: .5rem;
+    font-size: 1rem;
+}
+
+.section2 .box2 .span3{
+	font-size: 1rem;
+	padding: .2rem .5rem;
+	padding-right: 1.8rem;
+	margin-left: .5rem;
+}
+
+.section2 .box2 i{
+	font-size: 1.2rem;
+	margin-left: .5rem;
+	position: relative;
+	right: 1rem;
+	top: .3rem;
+}
+
+.i{
+	position: relative;
+	bottom: 2.5rem;
+	left: 6.3rem;
+	color: white;
+	font-size: 1rem;
+	background-color: blue;
+	border-radius: 20rem;
+	padding: .2rem .5rem;
+}
+
+.section2 .box2 .span4{
+	font-size: .9rem;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	padding-left: 1rem;
+	margin-left: .5rem;
+}
+
+.section2 .box2 .span5{
+	background-color: yellow;
+	color: red;
+	font-size: .9rem;
+	padding: .2rem .6rem;
+	padding-right: 4.3rem;
+}
+
+.section2 .box2 .span6{
+    font-size: .7rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    margin-top: .2rem;
+    position: relative;
+    right: 1.5rem;
+    display:inline-block;
+}
+
+.section2 .box2 #span4{
+	background-color: red;
+	color: yellow;
+	font-size: 1rem;
+	padding: .2rem .6rem;
+	margin-left: 1.5rem;
+	margin-bottom: .2rem;
+}
+
+
+
+
+
+
+
+
+.section3{
+	margin-top: 180rem;
+	margin-left: 8rem;
+	margin-right: 5rem;
+}
+.section3 .box{
+	width: 20rem;
+	height: 16rem;
+	margin-top: 1rem;
+}
+.section3 .box1{
+    width: 10rem;
+	height: 15rem;
+}
+
+.box1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.section3 .box2{
+    width: 9rem;
+	height: 11rem;
+	position: relative;
+	bottom: 2rem;
+}
+
+.section3 .box2 .span1{
+	width: 5.8rem;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    font-size: .7rem;
+    color: white;
+    border-radius: .5rem;
+}
+
+.section3 .box2 .span2{
+	width: 6.7rem;
+    padding: 0.2rem .5rem;
+    margin: .5rem;
+    font-size: 1rem;
+}
+
+.section3 .box2 .span3{
+	font-size: 1rem;
+	padding: .2rem .5rem;
+	padding-right: 1.8rem;
+	margin-left: .5rem;
+}
+
+.section3 .box2 i{
+	font-size: 1.2rem;
+	margin-left: .5rem;
+	position: relative;
+	right: 1rem;
+	top: .3rem;
+}
+
+.i{
+	position: relative;
+	bottom: 2.5rem;
+	left: 6.3rem;
+	color: white;
+	font-size: 1rem;
+	background-color: blue;
+	border-radius: 20rem;
+	padding: .2rem .5rem;
+}
+
+.section3 .box2 .span4{
+	font-size: .9rem;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	padding-left: 1rem;
+	margin-left: .5rem;
+}
+
+.section3 .box2 .span5{
+	background-color: yellow;
+	color: red;
+	font-size: .9rem;
+	padding: .2rem .6rem;
+	padding-right: 4.3rem;
+}
+
+.section3 .box2 .span6{
+    font-size: .7rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    margin-top: .2rem;
+    position: relative;
+    right: 1.5rem;
+    display:inline-block;
+}
+
+.section3 .box2 #span4{
+	background-color: red;
+	color: yellow;
+	font-size: 1rem;
+	padding: .2rem .6rem;
+	margin-left: 1.5rem;
+	margin-bottom: .2rem;
+}
+
+
+
+.section4{
+	margin-top: 180rem;
+	margin-left: 7rem;
+	margin-right: 5rem;
+}
+.section4 .box{
+	width: 22rem;
+	height: 16rem;
+	margin-top: 1rem;
+}
+.section4 .box1{
+    width: 12rem;
+	height: 7rem;
+}
+
+.box1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.section4 .box2{
+    width: 9rem;
+	height: 11rem;
+	position: relative;
+	bottom: 2rem;
+}
+
+.section4 .box2 .span1{
+	width: 5.8rem;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    font-size: .7rem;
+    color: white;
+    border-radius: .5rem;
+}
+
+.section4 .box2 .span2{
+	width: 6.7rem;
+    padding: 0.2rem .5rem;
+    margin: .5rem;
+    font-size: 1rem;
+}
+
+.section4 .box2 .span3{
+	font-size: 1rem;
+	padding: .2rem .5rem;
+	padding-right: 1.8rem;
+	margin-left: .5rem;
+}
+
+.section4 .box2 i{
+	font-size: 1.2rem;
+	margin-left: .5rem;
+	position: relative;
+	right: 1rem;
+	top: .3rem;
+}
+
+.i{
+	position: relative;
+	bottom: 2.5rem;
+	left: 6.3rem;
+	color: white;
+	font-size: 1rem;
+	background-color: blue;
+	border-radius: 20rem;
+	padding: .2rem .5rem;
+	z-index: 10000;
+}
+
+.section4 .box2 .span4{
+	font-size: .9rem;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	padding-left: 1rem;
+	margin-left: .5rem;
+}
+
+.section4 .box2 .span5{
+	background-color: yellow;
+	color: red;
+	font-size: .9rem;
+	padding: .2rem .6rem;
+	padding-right: 4.3rem;
+}
+
+.section4 .box2 .span6{
+    font-size: .7rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    margin-top: .2rem;
+    position: relative;
+    right: 1.5rem;
+    display:inline-block;
+}
+
+.section4 .box2 #span4{
+	background-color: red;
+	color: yellow;
+	font-size: 1rem;
+	padding: .2rem .6rem;
+	margin-left: 1.5rem;
+	margin-bottom: .2rem;
+}
+
+ 
+
+
+
+
+}
